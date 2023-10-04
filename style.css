@@ -1,0 +1,42 @@
+* {
+ box-sizing: border-box;
+}
+
+/* COLORS */
+
+:root {
+
+/* Header section */
+--dark-background: #1f2937;
+--main-text-bold: #f9faf8;
+--secondary-text: #e5e7eb;
+--logo-text: #f9faf8;
+/* Buttons */
+--Buttons-color: #3882f6;
+/* Information header text */
+--info-h-text: #1f2937;
+/* Quote section */
+--quote-bg: #e5e7eb;
+--quote-txt: #1f2937;
+}
+
+/****** TAG SELECTORS ******/
+body {
+    height: 100hv;
+    width: 100%;
+}
+ 
+
+/****** CLASS SELECTORS ******/
+.h-container {
+    background-color: var(--dark-background);
+    color: var(--secondary-text)
+}
+
+.head-1 {
+    color: var(--logo-text);
+}
+
+.headers {
+    color: var(--secondary-text);
+}
