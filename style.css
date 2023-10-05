@@ -1,5 +1,6 @@
 * {
  box-sizing: border-box;
+ 
 }
 
 /* COLORS */
@@ -22,6 +23,7 @@
 
 /****** TAG SELECTORS ******/
 body {
+    margin: 0;
     height: 100hv;
     width: 100%;
 }
