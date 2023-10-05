@@ -103,3 +103,34 @@ body {
     flex: 0.8;
     background-color: gray;
 }
+
+/* SECTION 2 */
+
+.boxes-container {
+    padding: 0 8rem;
+}
+
+.random-info {
+    text-align: center;
+    margin: 40px 0;
+
+}
+
+.box-desc {
+    width: 150px;
+    text-align-last: center;
+    margin-bottom: 80px ;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 20px;
+}
+
