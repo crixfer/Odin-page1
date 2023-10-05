@@ -1,9 +1,8 @@
 * {
  box-sizing: border-box;
- 
 }
 
-/* COLORS */
+/****** COLORS ******/
 
 :root {
 
@@ -30,15 +29,59 @@ body {
  
 
 /****** CLASS SELECTORS ******/
+
+/* HEADER */
+
 .h-container {
     background-color: var(--dark-background);
-    color: var(--secondary-text)
+    color: var(--secondary-text);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2.5rem;
+
 }
 
 .head-1 {
     color: var(--logo-text);
+    font-size: 24px;
+    
 }
 
 .headers {
     color: var(--secondary-text);
+    font-weight: 300;
+    font-size: 18px;
 }
+.h-group {
+    display:flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+/* SECTION 1 */
+
+.main-container {
+    background-color: var(--dark-background);
+    color: var(--main-text-bold);
+    display: flex;
+    padding: 0 2.5rem;
+}
+
+.main-description {
+    color: var(--secondary-text);
+    font-weight: 300;
+    width: 400px;
+}
+
+/* Sing up BUTTON */
+
+.buttons {
+    background-color: var(--Buttons-color);
+    color: var(--logo-text);
+    font-weight: 700;
+    border-radius: 7px;
+    border: none;
+    width: 112px;
+    height: 30px;
+}
+
