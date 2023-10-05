@@ -112,7 +112,7 @@ body {
 
 .random-info {
     text-align: center;
-    margin: 40px 0;
+    margin: 40px;
 
 }
 
@@ -134,3 +134,16 @@ body {
     border-radius: 20px;
 }
 
+/* SECTION 3 */
+
+.quote-container {
+    background-color: var(--quote-bg);
+
+}
+
+.q-txt {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
