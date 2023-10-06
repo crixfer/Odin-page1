@@ -173,9 +173,37 @@ body {
 .blue-box {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: var(--Buttons-color);
     color: var(--logo-text);
-    height: 100px;
-    width: 650px;
+    height: 120px;
+    width: 700px;
+    border-radius: 6px;
 
+}
+
+.cta-tittle {
+    margin-bottom: 0;
+    font-size: 100%;
+}
+
+.cta-suggestion {
+    margin-top: 0;
+    font-size: 80%;
+}
+
+.button-box {
+    display: flex;
+    align-items: center;
+}
+
+.button2 {
+    background-color: var(--Buttons-color);
+    color: var(--logo-text);
+    font-weight: 700;
+    border-radius: 7px;
+    border: white solid;
+    width: 112px;
+    height: 30px;
+    margin-top: 1rem;
 }
