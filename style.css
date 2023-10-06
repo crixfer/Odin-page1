@@ -160,3 +160,22 @@ body {
     padding-right: 50px;
     
 }
+
+/* SECTION 4 */
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+}
+
+.blue-box {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--Buttons-color);
+    color: var(--logo-text);
+    height: 100px;
+    width: 650px;
+
+}
