@@ -26,8 +26,12 @@ body {
     margin: 0;
     height: 100hv;
     width: 100%;
+    
 }
- 
+ img {
+    width: 600px;
+    border-radius: 10px;
+ }
 
 /****** CLASS SELECTORS ******/
 
@@ -38,7 +42,7 @@ body {
     color: var(--secondary-text);
     display: flex;
     justify-content: space-between;
-    padding: 0 3.5rem;
+    padding: 0 5rem;
 
 }
 
@@ -66,12 +70,13 @@ body {
     color: var(--main-text-bold);
     display: flex;
     justify-content: space-between;
-    padding: 5rem 3.5rem;
+    padding: 5rem 5rem;
 }
 
 .awesome-txt {
     font-size: 48px;
     margin: 0;
+    padding-bottom: 1rem;
 }
 
 .main-description {
@@ -100,15 +105,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 0.8;
-    background-color: gray;
+    flex: .7;
+    /* background-color: gray; */
+    border-radius: 10px;
+    
 }
 
 /* SECTION 2 */
 /* BOXES */
 
 .boxes-container {
-    padding: 0 8rem;
+    padding: 0 12rem;
 }
 
 .random-info {
@@ -118,10 +125,12 @@ body {
 }
 
 .box-desc {
-    width: 120px;
-    text-align-last: center;
-    margin-bottom: 80px ;
-    font-size: small;
+    width: 139px;
+    text-align-last: ;
+    margin-bottom: 90px ;
+    font-size: 14px;
+    display: flex;
+    
 }
 
 .boxes {
@@ -130,14 +139,15 @@ body {
 }
 
 .box {
-    height: 120px;
-    width: 120px;
-    border: 4px solid #3882f6;
+    height: 130px;
+    width: 130px;
+    border: 3px solid #3882f6;
     border-radius: 20px;
 
 }
 
 /* SECTION 3 */
+/* QUOTE */
 
 .quote-container {
     background-color: var(--quote-bg);
@@ -146,22 +156,23 @@ body {
 }
 
 .q-txt {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 300;
     font-style: italic;
     text-align-last: left;
-    margin-bottom: 0;
+    margin: 0 11rem;
 }
 
 .author {
     text-align: right;
     font-weight: 600;
     margin: 0;
-    padding-right: 50px;
-    
+    padding-right: 17rem;
+    font-size: 11px;
 }
 
 /* SECTION 4 */
+/* CTA */
 
 .cta-container {
     display: flex;
@@ -192,6 +203,8 @@ body {
     font-size: 80%;
 }
 
+/* BUTTON 2 */
+
 .button-box {
     display: flex;
     align-items: center;
@@ -205,5 +218,16 @@ body {
     border: white solid;
     width: 112px;
     height: 30px;
-    margin-top: 1rem;
+    
+}
+
+/****** FOOTER ******/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--dark-background);
+    color: var(--logo-text);
+    font-size: 1rem;
+    padding: 0.7rem;
 }
